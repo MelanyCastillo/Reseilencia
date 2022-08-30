@@ -1,0 +1,93 @@
+.principal{
+    width: 100%;
+    height:35vh;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 1rem;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.parte1{
+    width: 100%;
+    height:55vh;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 1rem;
+}
+.parte2{
+    width: 100%;
+    height:25vh;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 1rem;
+}
+.texto{
+    width: 100%;
+    height:8vh;
+    background: rgb(5, 5, 117);
+}
+.contenido{
+    width: 100%;
+    height:30vh;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    gap: 1rem;
+    margin-top: 15%;
+}
+.espacio{
+    width: 100%;
+    height:50vh;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    gap: 1rem;
+    margin-top: 15%;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    
+}
+.centrarBarra{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.texto{
+    display: flex;
+    justify-content: center; 
+}
+
+.parrafo{
+    width: 100%;
+    height:45vh;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    
+}
+.secundario{
+    width: 100%;
+    height:50vh;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.titulo{
+    color: rgb(230, 224, 224);
+}
+#salud{
+    display: flex;
+    justify-content: space-around;
+    height: 55vh;
+    background: rgb(3, 3, 77);
+    color: rgb(230, 224, 224);
+}
+
+
+
